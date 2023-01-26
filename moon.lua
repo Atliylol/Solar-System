@@ -7,6 +7,6 @@ local apollo11_footstep = true
 rotate(s_system.earth)
 
 function rotate(around)
-  x += 360 / 13.3 -- this is probably not working
-  z += 360 / 13.3
+  x += math.sin(360 / 13.3) -- this is probably not working
+  z += math.sin(360 / 13.3)
 end
